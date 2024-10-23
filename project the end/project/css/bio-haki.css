@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Stick&family=Unbounded:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;
+    width: 1000px;
+    background-color: aquamarine;
+    font-family: "Stick", sans-serif;
+}
+.glav{
+    height:4% ;
+    width: 1560px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    width: 70%;
+    height: 15%;
+    border: none;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color: aliceblue;
+    justify-content: space-between;
+    border-radius: 15px;    
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 999px;
+    box-shadow: 5px 5px 20px aquamarine;
+    
+}
+.comp a{
+    margin-right: 20px;
+    background-color:rgb(80, 54, 206);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:5px 5px 20px aquamarine;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-right: 100px;
+}
+.comp a:hover{
+    background-color: chocolate;
+    box-shadow:5px 5px 20px chocolate;
+}
+.bio-cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-left: 100px;
+}
+.card{
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    background-color: chocolate;
+    color: black;
+    box-shadow: 5px 5px 20px red;
+}
+.card img{
+    width: 200px;
+    height: 300px;
+}
+.card table{
+    padding-left:20px ;
+}
+.card td,th{
+    padding-left:10px;
+    padding-right:10px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Stick&family=Unbounded:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+    font-family: "Stick", sans-serif;
+    display: flex;
+
+}
+.photo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 999px;
+    box-shadow: 5px 5px 20px red;
+    z-index: 1;
+}
+.icon{
+    position: absolute;
+    width: 50px;
+    right: 130px;
+    z-index:-1;
+}
+.parent:hover .icon{
+        width: fit-content;
+        width: 50px;
+        z-index: 100;
+}
+.side-board{
+    background-color: black;
+    height: 500px;
+    width: 30%;
+    position: sticky;
+    top: 120px;
+    left: 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.side-board a{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.side-board a:hover{
+    width: fit-content;
+    color: brown;
+    transition: 0.5s;
+}
+main{
+    padding: 7px;
+    text-align: center;
+    border: none;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    width: 30%;
+    left: 500px;
+    top: 30px;
+    background-color: chocolate;
+}
+h3{
+    padding: 7px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+}
